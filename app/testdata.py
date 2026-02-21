@@ -13,3 +13,6 @@ while x > 0:
     y = y * 10 + x
     x = x - 1
 print(" " + str(y))
+
+speed = lambda x: x * 2
+print(speed(5))
